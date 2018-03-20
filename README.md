@@ -1,7 +1,6 @@
 
 # git_test
 Testowe repozytorium gita
-<<<<<<< HEAD
 =======
 
 1
@@ -32,13 +31,18 @@ Krzyknij cycki a dam ciastko
 =======
 
 =======
+Krzyknij cycki a dam ciastko
+
+zmiany
+=======
+=======
 
 
 
 xdxdxdxdxdxd
 
 =======
-Klaudia jest ³adna
+Klaudia jest glupia
 =======
 =======
 
@@ -55,4 +59,3 @@ XD ()()
 =======
 
 sraaaaka
-
