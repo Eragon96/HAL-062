@@ -8,3 +8,9 @@ Miko³aj ma urodziny!!!
 '''
 c==3
 '''
+
+
+"""
+XD ()()
+    )(
+   (Y)	
