@@ -15,3 +15,5 @@ c==3
  zmiana
 
 Krzyknij cycki a dam ciastko
+
+zmiany
