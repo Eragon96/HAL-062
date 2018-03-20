@@ -13,5 +13,18 @@ c==3
 '''
 
 
+
 xdxdxdxdxdxd
+
+=======
+Klaudia jest ³adna
+=======
+=======
+
+
+
+"""
+XD ()()
+    )(
+   (Y)	
 
