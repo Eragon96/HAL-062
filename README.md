@@ -1,3 +1,4 @@
+
 # git_test
 Testowe repozytorium gita
 
@@ -8,9 +9,13 @@ dupa-Siekiera
 ----------------------
 Miko³aj ma urodziny!!!
 
+Grzesiek96
+
 '''
 c==3
 '''
+
+=======
 
 
 
@@ -27,4 +32,11 @@ Klaudia jest ³adna
 XD ()()
     )(
    (Y)	
+
+
+=======
+=======
+=======
+
+sraaaaka
 
