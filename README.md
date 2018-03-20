@@ -12,5 +12,16 @@ Miko³aj ma urodziny!!!
 c==3
 '''
 
+
 Klaudia jest ³adna
+=======
+=======
+
+
+
+"""
+XD ()()
+    )(
+   (Y)	
+=======
 =======
