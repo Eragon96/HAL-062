@@ -26,7 +26,8 @@ zmiany
 xdxdxdxdxdxd
 
 =======
-Klaudia jest brzydka
+Klaudia jest bardzo ³adna
+
 =======
 =======
 
