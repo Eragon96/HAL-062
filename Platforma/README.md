@@ -1,0 +1,1 @@
+# Sterowanie platformy jezdnej lazika

@@ -1,0 +1,1 @@
+# Kod odpowiedzialny za lacznosc lazika i obsluge wysylania obrazu z kamer

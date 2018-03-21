@@ -1,0 +1,1 @@
+# Kody zrodlowe mapowania i jazdy po nieznamy terenie, wykrywanie przeszkod (sieci neuronowe, lidar), wykrywanie pileczki (openCV)
