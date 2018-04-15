@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:id="@+id/armcontrol_activity">
+
+
+    <Button
+        android:id="@+id/switchToArm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="485dp"
+        android:text="Arm"
+        android:background="@android:color/transparent"
+        android:textColor="#0B2161"/>
+
+    <Button
+        android:id="@+id/switchToEngines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="115dp"
+        android:layout_marginTop="485dp"
+        android:text="Engines"
+        android:backgroundTint="#0B2161"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/switchToBluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="205dp"
+        android:layout_marginTop="485dp"
+        android:text="Bluetooth"
+        android:backgroundTint="#0B2161"
+        android:textColor="#FFFFFF"/>
+
+    <SeekBar
+        android:id="@+id/Seekbar1"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:thumbTint="#0B2161"
+        android:progress="50"
+        android:progressTint="@android:color/transparent"/>
+
+    <SeekBar
+        android:id="@+id/Seekbar2"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Seekbar1"
+        android:thumbTint="#0B2161"
+        android:progress="50"
+        android:progressTint="@android:color/transparent"/>
+
+    <SeekBar
+        android:id="@+id/Seekbar3"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Seekbar2"
+        android:thumbTint="#0B2161"
+        android:progress="50"
+        android:progressTint="@android:color/transparent"/>
+
+    <SeekBar
+        android:id="@+id/Seekbar4"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Seekbar3"
+        android:thumbTint="#0B2161"
+        android:progress="50"
+        android:progressTint="@android:color/transparent"/>
+
+    <SeekBar
+        android:id="@+id/Seekbar5"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Seekbar4"
+        android:thumbTint="#0B2161"
+        android:progress="50"
+        android:progressTint="@android:color/transparent"/>
+
+    <SeekBar
+        android:id="@+id/Seekbar6"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Seekbar5"
+        android:thumbTint="#0B2161"
+        android:progress="50"
+        android:progressTint="@android:color/transparent"/>
+
+    <SeekBar
+        android:id="@+id/Seekbar7"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Seekbar6"
+        android:thumbTint="#0B2161"
+        android:progress="50"
+        android:progressTint="@android:color/transparent"/>
+
+
+
+</RelativeLayout>

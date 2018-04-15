@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.t460s.hal_062.MainActivity"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnONOFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/btnDiscoverable_on_off"
+        android:layout_toRightOf="@+id/btnDiscoverable_on_off"
+        android:text="ON/OFF"
+        android:backgroundTint="#0B2161"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btnDiscoverable_on_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/btnFindUnpairedDevices"
+        android:layout_toRightOf="@+id/btnFindUnpairedDevices"
+        android:onClick="btnEnableDisable_Discoverable"
+        android:text="Enable Discoverable"
+        android:backgroundTint="#0B2161"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFindUnpairedDevices"
+        android:text="Discover"
+        android:onClick="btnDiscover"
+        android:backgroundTint="#0B2161"
+        android:textColor="#FFFFFF"/>
+
+    <ListView
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/btnStartConnection"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/lvNewDevices" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnFindUnpairedDevices"
+        android:id="@+id/btnStartConnection"
+        android:text="Start Connection"
+        android:backgroundTint="#0B2161"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/switchToArm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="485dp"
+        android:text="Arm"
+        android:backgroundTint="#0B2161"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/switchToEngines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="115dp"
+        android:layout_marginTop="485dp"
+        android:text="Engines"
+        android:backgroundTint="#0B2161"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/switchToBluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="205dp"
+        android:layout_marginTop="485dp"
+        android:text="Bluetooth"
+        android:background="@android:color/transparent"
+        android:textColor="#0B2161"/>
+
+</RelativeLayout>
