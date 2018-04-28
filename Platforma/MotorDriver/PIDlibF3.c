@@ -151,9 +151,9 @@ void setInertialInput(volatile int16_t referenceInput[3]) {
 
 //===============================================================================
 void setReferenceSpeed(int16_t speed1, int16_t speed2, int16_t speed3) {
-	referenceData.referenceValu[0] = speed1 * 5;
-	referenceData.referenceValu[1] = speed2 * 5;
-	referenceData.referenceValu[2] = speed3 * 5;
+	referenceData.referenceValu[0] = speed1 * powerFactor;
+	referenceData.referenceValu[1] = speed2 * powerFactor;
+	referenceData.referenceValu[2] = speed3 * powerFactor;
 }
 
 //===============================================================================

@@ -74,7 +74,7 @@ void initCan(void) {
 
 void readSpeed(void); //deklaracja funkcji znajdujacej sie nizej
 void pwmStartStop(void);
-void readPid(void);
+void setPowerFactor(void);
 //==================================================================================================
 //przerwanie odbiorcze CAN
 //odczytuje wartosci predkosci z nadeslanej ramki i ustawia rzadana predkosc na odpowiednich silnikach
@@ -82,7 +82,7 @@ void USB_LP_CAN1_RX0_IRQHandler(void) {
 	if (CAN_GetITStatus(CAN1, CAN_IT_FMP0) != RESET) {
 		CAN_Receive(CAN1, CAN_FIFO0, &RxMessage);
 		switch (RxMessage.StdId) {
-		case 100:
+		case 101:
 			pwmStartStop();
 			break;
 #ifdef plytkaPrawa
@@ -97,6 +97,9 @@ void USB_LP_CAN1_RX0_IRQHandler(void) {
 			resetCanWatchdog();
 			break;
 #endif
+		case 105:
+			setPowerFactor();
+			break;
 		}
 
 	}
@@ -126,6 +129,12 @@ void pwmStartStop() {
 		startMotors();
 	} else if (RxMessage.Data[0] == 0) {
 		stopMotors();
+	}
+}
+
+void setPowerFactor(){
+	if (RxMessage.Data[0] <= 20){
+	powerFactor = RxMessage.Data[0] ;
 	}
 }
 
@@ -173,10 +182,10 @@ void adcToCelsiusConverter(void) {
 
 void sendTemp(void) {
 #ifdef plytkaPrawa
-	TxMessage.StdId = 109;
+	TxMessage.StdId = 113;
 #endif
 #ifdef plytkaLewa
-	TxMessage.StdId = 110;
+	TxMessage.StdId = 114;
 #endif
 	adcToCelsiusConverter();
 	TxMessage.DLC = 3;
@@ -188,10 +197,10 @@ void sendTemp(void) {
 
 void sendStatus(void) {
 #ifdef plytkaPrawa
-	TxMessage.StdId = 111;
+	TxMessage.StdId = 116;
 #endif
 #ifdef plytkaLewa
-	TxMessage.StdId = 112;
+	TxMessage.StdId = 117;
 #endif
 	TxMessage.DLC = 1;
 	if (adcValue[6] >500) {

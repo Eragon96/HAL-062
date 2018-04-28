@@ -71,7 +71,7 @@ Zdefiniowane ramki
     odpowiada odczytom ze standardowego joysticka. Długość ramki: 2
     znaki.
 
-    -   -   wskazanieY wychylenie drążka w kierunku Y (prawo lewo)
+    -   wskazanieY wychylenie drążka w kierunku Y (prawo lewo)
 
     -   wskazanieX wychylenie drążka w kierunku X (przód tył)
 
@@ -84,13 +84,13 @@ Zdefiniowane ramki
     wysłania tej ramki silniki nie reagują na polecenie 100 (nastawy
     prędkości). Długość ramki: 1 znak.
 
-    -   -   ’1’ wartość char (0x31) oznacza zezwolenie na ruch każda
+    -   ’1’ wartość char (0x31) oznacza zezwolenie na ruch każda
         inna wartość oznacza brak zezwolenia i powoduje zatrzymanie
         napędów.
 
 102. Ramka zawiera nastawy prędkości silników po prawej stronie
 
-    -   -   Data[0] = prędkość silnika pierwszego
+    -   Data[0] = prędkość silnika pierwszego
 
     -   Data[1] = prędkość silnika drugiego
 
@@ -102,7 +102,7 @@ Zdefiniowane ramki
 
 103. Ramka zawiera nastawy prędkości silników po lewej stronie
 
-    -   -   Data[0] = prędkość silnika pierwszego
+    -   Data[0] = prędkość silnika pierwszego
 
     -   Data[1] = prędkość silnika drugiego
 
@@ -115,7 +115,7 @@ Zdefiniowane ramki
 104. Ramka do operatora, zawiera dane o prądzie pobieranym przez silniki
     po prawej stronie. Długość ramki: 6 znaków.
 
-    -   -   currentValue1 & 0xFF;
+    -   currentValue1 & 0xFF;
 
     -   (currentValue1 & 0xFF00)\>\>8 ;
 
@@ -135,7 +135,7 @@ Zdefiniowane ramki
 105. Ramka do operatora, zawiera dane o prądzie pobieranym przez silniki
     po lewej stronie. Długość ramki: 6 znaków.
 
-    -   -   currentValue1 & 0xFF;
+    -   currentValue1 & 0xFF;
 
     -   (currentValue1 & 0xFF00)\>\>8 ;
 
@@ -155,7 +155,7 @@ Zdefiniowane ramki
 106. Ramka do operatora, zawiera odczyty prędkości kół z enkoderów dla
     napędów z prawej strony. Długość ramki: 6 znaków.
 
-    -   -   enkPrędkość1 & 0xFF;
+    -   enkPrędkość1 & 0xFF;
 
     -   (enkPrędkość1 & 0xFF00)\>\>8 ;
 
@@ -173,7 +173,7 @@ Zdefiniowane ramki
 107. Ramka do operatora, zawiera odczyty prędkości kół z enkoderów dla
     napędów z lewej strony. Długość ramki: 6 znaków.
 
-    -   -   enkPrędkość1 & 0xFF;
+    -   enkPrędkość1 & 0xFF;
 
     -   (enkPrędkość1 & 0xFF00)\>\>8 ;
 
@@ -191,7 +191,7 @@ Zdefiniowane ramki
 108. Ramka do operatora, zawiera pomiary napięcia na kolejnych celach
     baterii. Długość ramki: 8 znaków.
 
-    -   -   Vbat1 & 0xFF;
+    -   Vbat1 & 0xFF;
 
     -   (Vbat1 & 0xFF00)\>\>8 ;
 
@@ -215,7 +215,7 @@ Zdefiniowane ramki
 109. Ramka zawiera odczyty temperatur baterii zmierzone przez BMS.
     Długość ramki: 6 znaków
 
-    -   -   batTemp1
+    -   batTemp1
 
     -   batTemp2
 
@@ -233,7 +233,7 @@ Zdefiniowane ramki
 
 110. Ramka zawiera współrzędne GPS. Długość ramki: 8 znaków
 
-    -   -   długośćGeo & 0xFF;
+    -   długośćGeo & 0xFF;
 
     -   (długośćGeo & 0xFF00)\>\>8 ;
 
@@ -255,7 +255,7 @@ Zdefiniowane ramki
 
 111. Dane z IMU. Długość ramki: 12 znaków
 
-    -   -   przyspieszenieX & 0xFF;
+    -   przyspieszenieX & 0xFF;
 
     -   (przyspieszenieX & 0xFF00)\>\>8 ;
 
@@ -285,7 +285,7 @@ Zdefiniowane ramki
 
 112. Dane z Magnetometru. Długość ramki: 6 znaków
 
-    -   -   magnetometrX & 0xFF;
+    -   magnetometrX & 0xFF;
 
     -   (magnetometrX & 0xFF00)\>\>8 ;
 
@@ -301,7 +301,7 @@ Zdefiniowane ramki
 
 113. Temperatura silników po prawej stronie. Długość ramki: 3 znaki
 
-    -   -   tempSilnik1
+    -   tempSilnik1
 
     -   tempSilnik2
 
@@ -313,7 +313,7 @@ Zdefiniowane ramki
 
 114. Temperatura silników po lewej stronie. Długość ramki: 3 znaki
 
-    -   -   tempSilnik1
+    -   tempSilnik1
 
     -   tempSilnik2
 
@@ -326,14 +326,14 @@ Zdefiniowane ramki
 115. Ograniczenie mocy silników. Ramka przesyłana do łazika. Długość
     ramki: 1 znak
 
-    -   -   Moc silnika
+    -   Moc silnika
 
     Uwagi: Moc silnika przyjmuje wartość od 1 do 20, gdzie 1 moc
     minimalna 20 pełna moc.
 
 116. Status sterownika silników po prawej stronie. Długość ramki: 1 znak
 
-    -   -   Status sterownika silników prawy
+    -   Status sterownika silników prawy
 
     Uwagi: Status przyjmuje następujące wartości:
 
@@ -347,9 +347,9 @@ Zdefiniowane ramki
 
 117. Status sterownika silników po lewej stronie. Długość ramki: 1 znak
 
-    -   -   Status sterownika silników lewy
+    -   Status sterownika silników lewy
 
-    Uwagi: patrz 114
+    Uwagi: patrz 116
 
 118. Status BMS’a
 
@@ -411,6 +411,7 @@ $R_1 = 1k$ i $R_2 = 1.5k$. Przetwornik ADC na mikrokontrolerze pracuje z
 rozdzielczością 12 bitów i mierzy napięcie w zakresie od 0 do 3.3V.
 
 Uwzględniając powyższe otrzymujemy zależność:
+
 $$\textrm{pobierany prąd[A]}=\frac{3.3*currentValue*(R_1+R_2)}{2^{12}*R_2*sens}$$
 
 enkPrędkość
@@ -429,6 +430,7 @@ enkPrędkość przyjmie wartość 0xFFFF oznacza to, że koło jest całkowicie
 zatrzymane.
 
 Uwzględniając powyższe otrzymujemy zależność:
+
 $$\textrm{prędkość obrotowa [rpm]}=\frac{clock*INprescaler*60}{prescaler*enkPrędkość}$$
 
 Vbat

@@ -183,6 +183,7 @@ void initPwm() {
 	TIM_CtrlPWMOutputs(TIM15, ENABLE);
 
 	resetIntegralValue();
+	powerFactor = 5;
 }
 
 //==================================================================================================
@@ -190,11 +191,7 @@ void initPwm() {
 void TIM1_BRK_TIM15_IRQHandler(void) {
 	if (TIM_GetITStatus(TIM15, TIM_IT_Update) != RESET) {
 		TIM_ClearITPendingBit(TIM15, TIM_IT_Update);
-		//lowPassFilterFIR();
 		lowPassFilterIIR();
-		//setPICurrent(referenceData.referenceInertial);
-		//setPWMreg(referenceData.referenceCurrent);
-		//setPWMreg(referenceData.referenceCurrent);
 		regulatorSilnikow();
 	}
 }
