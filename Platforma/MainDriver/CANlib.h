@@ -19,6 +19,7 @@
 
 #include "stm32f4xx.h"
 #include "UARTlib.h"
+#include "CommuniactionLib.h"
 
 //definiowanie zmiennych zawieraj¹cych wiadmosci
 CanTxMsg txMessage; //wiadomosc do wyslania

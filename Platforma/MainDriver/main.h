@@ -14,6 +14,8 @@
 #include "IMUlib.h"
 #include "buzzerLib.h"
 #include "MAGlib.h"
+#include "CommuniactionLib.h"
+#include "GPS.h"
 
 #define wartoscOpoznienia 200
 

@@ -84,56 +84,7 @@ void CAN1_RX0_IRQHandler(void) {
 	if (CAN_GetITStatus(CAN1, CAN_IT_FMP0) != RESET) {
 		CAN_ClearITPendingBit(CAN1, CAN_IT_FMP0);
 		CAN_Receive(CAN1, CAN_FIFO0, &rxMessage);
-		switch (rxMessage.StdId) {
-		case 101:
-			//BMS napiêcia baterii
-			sendUartParam(8, 106);
-			break;
-		case 102:
-			//Nastawy prêdkoœci silników, prawe
-			break;
-		case 103:
-			//Nastawy prêdkoœci silników, lewe
-			break;
-		case 104:
-			//Pr¹d silników, prawe
-			sendUartParam(6, 102);
-			break;
-		case 105:
-			//Pr¹d silników, lewe
-			sendUartParam(6, 103);
-			break;
-		case 106:
-			//Prêdkoœci kó³, prawe
-			sendUartParam(6, 104);
-			break;
-		case 107:
-			//Prêdkoœci kó³, lewe
-			sendUartParam(6, 105);
-			break;
-		case 108:
-			//BMS temperatura baterii
-			sendUartParam(6, 107);
-			break;
-		case 109:
-			//Temp silników, prawe
-			sendUartParam(3, 111);
-			break;
-		case 110:
-			//Temp silników, lewe
-			sendUartParam(3, 112);
-			break;
-		case 111:
-			//Status sterowników silników prawe
-			sendUartParam(1, 114);
-			break;
-		case 112:
-			//Status sterowników silników lewe
-			sendUartParam(1, 115);
-			break;
-		default:
-			break;
-		}
+		runCanAction(&rxMessage);
 	}
 }
 //====================================================================================================
@@ -222,7 +173,7 @@ void sendUartParam(uint8_t dataLength, uint8_t dataId) {
 	for (int i = 0; i <= dataLength; i++) {
 		sendBuffor[buffNum][i + 2] = rxMessage.Data[i];
 	}
-	UART2wyslij(&sendBuffor[buffNum][0], dataLength + 2);
+	UARTwyslij(&sendBuffor[buffNum][0], dataLength + 2);
 	buffNum++;
 	if (buffNum == 20) {
 		buffNum = 0;

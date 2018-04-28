@@ -123,7 +123,7 @@ void AdcBatteryStatusSend(void) {
 		sendBuffor[1] = 'B';
 		sendBuffor[2] = 0xFF & adcValue[0];
 		sendBuffor[3] = (0xFF00 & adcValue[0]) >> 8;
-		UART2wyslij(&sendBuffor[0], 4);
+		UARTwyslij(&sendBuffor[0], 4);
 	}
 }
 

@@ -10,9 +10,11 @@ int main(void) {
 			;
 	}
 	initGPIO();
+	GPSinit();
 	//IMUinit();
 	//MAGinit();
 	initCan();
+	loadCommandList();
 	if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_0)==Bit_RESET){
 		initUart3();
 		useBluetooth=1;
@@ -47,7 +49,7 @@ int main(void) {
 		d++;
 		delay(100);
 
- 		 UART2wyslij(&test[0],8);
+ 		 UARTwyslij(&test[0],8);
 	}
 }
 
