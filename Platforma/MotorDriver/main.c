@@ -31,9 +31,9 @@ int main(void) {
 	//setReferenceSpeed(50, 50, 50);
 	while (1) {
 		Delay(500);
-		GPIO_SetBits(GPIOC,GPIO_Pin_9);
+		GPIO_SetBits(GPIOC, GPIO_Pin_9);
 		Delay(500);
-		GPIO_ResetBits(GPIOC,GPIO_Pin_9);
+		GPIO_ResetBits(GPIOC, GPIO_Pin_9);
 	}
 }
 

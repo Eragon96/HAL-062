@@ -31,7 +31,6 @@ CanRxMsg RxMessage;
 
 void initCan(void);
 void USB_LP_CAN1_RX0_IRQHandler(void);
-void USB_HP_CAN1_TX_IRQHandler(void);
 void sendParam(void);
 
 #endif

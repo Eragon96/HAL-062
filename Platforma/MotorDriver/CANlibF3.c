@@ -97,7 +97,7 @@ void USB_LP_CAN1_RX0_IRQHandler(void) {
 			resetCanWatchdog();
 			break;
 #endif
-		case 105:
+		case 119:
 			setPowerFactor();
 			break;
 		}
@@ -125,11 +125,10 @@ void readSpeed() {
 }
 
 void pwmStartStop() {
-	if (RxMessage.Data[0] == 1) {
+	if (RxMessage.Data[0] == '1') {
 		startMotors();
-	} else if (RxMessage.Data[0] == 0) {
+	} else
 		stopMotors();
-	}
 }
 
 void setPowerFactor(){
@@ -219,19 +218,20 @@ void sendParam(void) {
 #ifdef plytkaLewa
 	static int licznik = 0;
 #else
-	static int licznik = 25;
+	static int licznik = 50;
 #endif
 	licznik++;
 	switch (licznik) {
-	case 50:
+	case 75:
 		sendSpeed();
 		break;
-	case 100:
+	case 150:
 		sendCurrent();
 		break;
-	case 150:
+	case 225:
 		sendTemp();
-	case 200:
+		break;
+	case 300:
 		sendStatus();
 		licznik = 0;
 		break;
