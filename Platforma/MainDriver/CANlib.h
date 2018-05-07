@@ -38,7 +38,7 @@ typedef enum {
 
 //stan silnika w³¹czyc START, wy³¹czyc STOP
 typedef enum {
-	STOP = 0, START = 1
+	STOP = 0, START = '1'
 } Silnik_enable;
 
 //definiowanie funkcji
