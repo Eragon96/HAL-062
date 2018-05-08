@@ -385,9 +385,72 @@ Zdefiniowane ramki
     Uwagi: Współczynnik ograniczenia prądu przyjmuje wartości od 1 do
     200.
 
-### 160-199 platforma jezdna {#platforma-jezdna-1 .unnumbered}
+### 160-199 Manipulator {#platforma-jezdna-1 .unnumbered}
 
-### 200-239 platforma jezdna {#platforma-jezdna-2 .unnumbered}
+160. Prędkości do poszczególnych silników/serw manipulatora Długość ramki: 2 znaki.
+	-   Data[0] = prędkość silnika pierwszego
+
+    -   Data[1] = prędkość silnika drugiego
+
+    -   Data[2] = prędkość silnika trzeciego
+	
+	-   Data[3] = prędkość silnika czwartego
+	
+	-   Data[4] = prędkość silnika piątego
+	
+	-   Data[5] = prędkość silnika szóstego
+	
+	-   Data[6] = prędkość silnika chwytaka gdzie -zamykanie  +otwieranie
+
+    Uwagi: Wartości prędkości to int8 w zakresie od -100 do 100 gdzie 0
+    oznacza zatrzymanie, 100 maksymalną prędkość obrotów do przodu, a
+    -100 maksymalną prędkość obrotów do tyłu.
+
+161. Wskazania manipulatora graficznego do Kinematyki odwrotnej + prędkość do chwytaka
+	Długość ramki: 2 znaki.
+
+	-   Data[0] = x
+
+    -   Data[1] = y
+	
+    -   Data[2] = z
+	
+	-   Data[3] = roll
+	
+	-   Data[4] = pitch
+	
+	-   Data[5] = yaw
+	
+	-   Data[6] = prędkość silnika chwytaka gdzie -zamykanie  +otwieranie
+	
+	
+162. ramka Start Stop dla manipulatora
+	
+	-   ’1’ wartość char (0x31) oznacza zezwolenie na ruch każda
+        inna wartość oznacza brak zezwolenia i powoduje zatrzymanie
+        manipulatora.
+		
+163. ramka zawierająca aktualne pozycje silników z mnaipulatora.
+	Długość ramki 7.
+	//trzeba jakoś przekazywa kąty (do uzgodnienia jak)
+	
+	-   Data[0] = pozycja silnika pierwszego (obrót ramienia lewo prawo)
+
+    -   Data[1] = pozycja silnika drugiego 
+
+    -   Data[2] = pozycja silnika trzeciego
+	
+	-   Data[3] = pozycja silnika czwartego
+	
+	-   Data[4] = pozycja silnika piątego (nadgarstek w kiści)
+	
+	-   Data[5] = pozycja silnika szóstego (obrót chwytaka wokół własnej osi)
+	
+	-   Data[6] = pozycja chwytaka (gdzie 0 zamknięty 100 najbardziej otwarty)
+	
+
+	
+### 200-239 Lab {#platforma-jezdna-2 .unnumbered}
 
 Konwersja danych
 ================
