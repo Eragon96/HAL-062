@@ -452,6 +452,28 @@ Zdefiniowane ramki
 	
 ### 200-239 Lab {#platforma-jezdna-2 .unnumbered}
 
+200. ramka prędkości silników długość ramki 6 znaków
+
+	1. Prowadnica główna
+
+	2. Prowadnica Wiertło 1
+	
+	3. Wiertło 1
+	
+	4. Prowadnica Wiertło 2
+	
+	5. Wiertło 2
+	
+	6. Mieszadło
+
+	Uwagi: Wartości prędkości to int8 w zakresie od -20 do 20 gdzie 0
+    oznacza zatrzymanie, 20 maksymalną prędkość obrotów do przodu, a
+    -20 maksymalną prędkość obrotów do tyłu.
+	
+201. ramka pozycji serw długoś6ć ramki 6 znaków
+	
+	Uwagi: Wartości pozycji to int8 w zakresie od -90 do 90. 
+	
 Konwersja danych
 ================
 
