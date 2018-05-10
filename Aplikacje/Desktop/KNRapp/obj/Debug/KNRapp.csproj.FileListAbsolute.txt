@@ -1,0 +1,184 @@
+c:\users\maciek krasowski\documents\visual studio 2015\Projects\KNRapp\KNRapp\bin\Debug\KNRapp.exe.config
+c:\Users\Maciek Krasowski\Documents\Visual Studio 2015\Projects\KNRapp\KNRapp\bin\Debug\KNRapp.exe
+c:\Users\Maciek Krasowski\Documents\Visual Studio 2015\Projects\KNRapp\KNRapp\bin\Debug\KNRapp.pdb
+c:\Users\Maciek Krasowski\Documents\Visual Studio 2015\Projects\KNRapp\KNRapp\obj\Debug\KNRapp.Form1.resources
+c:\Users\Maciek Krasowski\Documents\Visual Studio 2015\Projects\KNRapp\KNRapp\obj\Debug\KNRapp.Properties.Resources.resources
+c:\Users\Maciek Krasowski\Documents\Visual Studio 2015\Projects\KNRapp\KNRapp\obj\Debug\KNRapp.csproj.GenerateResource.Cache
+c:\Users\Maciek Krasowski\Documents\Visual Studio 2015\Projects\KNRapp\KNRapp\obj\Debug\KNRapp.exe
+c:\Users\Maciek Krasowski\Documents\Visual Studio 2015\Projects\KNRapp\KNRapp\obj\Debug\KNRapp.pdb
+c:\Users\Maciek Krasowski\Documents\Visual Studio 2015\Projects\KNRapp\KNRapp\bin\Debug\SlimDX.dll
+c:\Users\Maciek Krasowski\Documents\Visual Studio 2015\Projects\KNRapp\KNRapp\bin\Debug\SlimDX.pdb
+c:\Users\Maciek Krasowski\Documents\Visual Studio 2015\Projects\KNRapp\KNRapp\bin\Debug\SlimDX.xml
+C:\Users\Maciek Krasowski\documents\visual studio 2015\Projects\KNRapp\KNRapp\bin\Debug\KNRapp.exe.manifest
+C:\Users\Maciek Krasowski\documents\visual studio 2015\Projects\KNRapp\KNRapp\bin\Debug\KNRapp.application
+C:\Users\Maciek Krasowski\documents\visual studio 2015\Projects\KNRapp\KNRapp\obj\Debug\KNRapp.exe.manifest
+C:\Users\Maciek Krasowski\documents\visual studio 2015\Projects\KNRapp\KNRapp\obj\Debug\KNRapp.application
+C:\Users\Maciek Krasowski\documents\visual studio 2015\Projects\KNRapp\KNRapp\obj\Debug\KNRapp.csprojResolveAssemblyReference.cache
+C:\Users\Maciek Krasowski\Desktop\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Debug\KNRapp.exe.config
+C:\Users\Maciek Krasowski\Desktop\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Debug\KNRapp.exe
+C:\Users\Maciek Krasowski\Desktop\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Debug\KNRapp.pdb
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Debug\KNRapp.exe.config
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Debug\KNRapp.exe
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Debug\KNRapp.pdb
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Debug\KNRapp.exe.manifest
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Debug\KNRapp.application
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Debug\KNRapp.exe
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Debug\KNRapp.pdb
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Debug\SlimDX.dll
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Debug\SlimDX.pdb
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Debug\SlimDX.xml
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Debug\KNRapp.csprojResolveAssemblyReference.cache
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Debug\KNRapp.Form1.resources
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Debug\KNRapp.Properties.Resources.resources
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Debug\KNRapp.csproj.GenerateResource.Cache
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Debug\KNRapp.exe.manifest
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Debug\KNRapp.application
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Debug\KNRapp.exe.config
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Debug\KNRapp.exe
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Debug\KNRapp.pdb
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Debug\KNRapp.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Debug\KNRapp.Form1.resources
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Debug\KNRapp.Properties.Resources.resources
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Debug\KNRapp.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Debug\KNRapp.exe.manifest
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Debug\KNRapp.application
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Debug\KNRapp.exe
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Debug\KNRapp.pdb
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Debug\SlimDX.dll
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Debug\SlimDX.pdb
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Debug\SlimDX.xml
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Debug\KNRapp.exe.manifest
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Debug\KNRapp.application
+C:\Users\user\Desktop\Poprawione\Kamera\KNRapp\KNRapp\bin\Debug\KNRapp.exe.config
+C:\Users\user\Desktop\Poprawione\Kamera\KNRapp\KNRapp\obj\Debug\KNRapp.exe
+C:\Users\user\Desktop\Poprawione\Kamera\KNRapp\KNRapp\obj\Debug\KNRapp.pdb
+C:\Users\user\Desktop\Poprawione\Marek\KNRapp\KNRapp\bin\Debug\KNRapp.exe.config
+C:\Users\user\Desktop\Poprawione\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.exe
+C:\Users\user\Desktop\Poprawione\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.pdb
+C:\Users\user\Desktop\Poprawione\Marek\KNRapp\KNRapp\bin\Debug\KNRapp.exe.manifest
+C:\Users\user\Desktop\Poprawione\Marek\KNRapp\KNRapp\bin\Debug\KNRapp.application
+C:\Users\user\Desktop\Poprawione\Marek\KNRapp\KNRapp\bin\Debug\KNRapp.exe
+C:\Users\user\Desktop\Poprawione\Marek\KNRapp\KNRapp\bin\Debug\KNRapp.pdb
+C:\Users\user\Desktop\Poprawione\Marek\KNRapp\KNRapp\bin\Debug\SlimDX.dll
+C:\Users\user\Desktop\Poprawione\Marek\KNRapp\KNRapp\bin\Debug\SlimDX.pdb
+C:\Users\user\Desktop\Poprawione\Marek\KNRapp\KNRapp\bin\Debug\SlimDX.xml
+C:\Users\user\Desktop\Poprawione\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Poprawione\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.Form1.resources
+C:\Users\user\Desktop\Poprawione\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.Properties.Resources.resources
+C:\Users\user\Desktop\Poprawione\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\Poprawione\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.exe.manifest
+C:\Users\user\Desktop\Poprawione\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.application
+G:\Joystick aplikacja\Marek\KNRapp\KNRapp\bin\Debug\KNRapp.exe.config
+G:\Joystick aplikacja\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.exe
+G:\Joystick aplikacja\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.pdb
+G:\Joystick aplikacja\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.csprojResolveAssemblyReference.cache
+G:\Joystick aplikacja\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.Form1.resources
+G:\Joystick aplikacja\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.Properties.Resources.resources
+G:\Joystick aplikacja\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.csproj.GenerateResource.Cache
+D:\Projekty\Joystick aplikacja\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.Form1.resources
+D:\Projekty\Joystick aplikacja\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.Properties.Resources.resources
+D:\Projekty\Joystick aplikacja\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.csproj.GenerateResource.Cache
+D:\Projekty\Joystick aplikacja\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.exe
+D:\Projekty\Joystick aplikacja\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.pdb
+D:\Projekty\Joystick aplikacja\Marek\KNRapp\KNRapp\bin\Debug\KNRapp.exe.config
+D:\Projekty\Joystick aplikacja\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.csprojResolveAssemblyReference.cache
+D:\Projekty\Joystick aplikacja\Marek\KNRapp\KNRapp\bin\Debug\KNRapp.exe.manifest
+D:\Projekty\Joystick aplikacja\Marek\KNRapp\KNRapp\bin\Debug\KNRapp.application
+D:\Projekty\Joystick aplikacja\Marek\KNRapp\KNRapp\bin\Debug\KNRapp.exe
+D:\Projekty\Joystick aplikacja\Marek\KNRapp\KNRapp\bin\Debug\KNRapp.pdb
+D:\Projekty\Joystick aplikacja\Marek\KNRapp\KNRapp\bin\Debug\SlimDX.dll
+D:\Projekty\Joystick aplikacja\Marek\KNRapp\KNRapp\bin\Debug\SlimDX.pdb
+D:\Projekty\Joystick aplikacja\Marek\KNRapp\KNRapp\bin\Debug\SlimDX.xml
+D:\Projekty\Joystick aplikacja\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.exe.manifest
+D:\Projekty\Joystick aplikacja\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.application
+D:\Projekty\Joystick aplikacja\Marek\KNRapp\KNRapp\obj\Debug\KNRapp.csproj.ResolveComReference.cache
+D:\Projekty\Joystick aplikacja\Marek\KNRapp\KNRapp\bin\Debug\Interop.EARTHLib.dll
+D:\Projekty\Joystick aplikacja\Marek\KNRapp\KNRapp\obj\Debug\Interop.EARTHLib.dll
+D:\Projekty\Joystick aplikacja\KNRapp\KNRapp\bin\Debug\KNRapp.exe.config
+D:\Projekty\Joystick aplikacja\KNRapp\KNRapp\obj\Debug\Interop.EARTHLib.dll
+D:\Projekty\Joystick aplikacja\KNRapp\KNRapp\obj\Debug\KNRapp.csproj.ResolveComReference.cache
+D:\Projekty\Joystick aplikacja\KNRapp\KNRapp\obj\Debug\KNRapp.exe
+D:\Projekty\Joystick aplikacja\KNRapp\KNRapp\obj\Debug\KNRapp.pdb
+D:\Projekty\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\KNRapp.exe.config
+D:\Projekty\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\KNRapp.exe.manifest
+D:\Projekty\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\KNRapp.application
+D:\Projekty\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\KNRapp.exe
+D:\Projekty\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\KNRapp.pdb
+D:\Projekty\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\SlimDX.dll
+D:\Projekty\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\SlimDX.pdb
+D:\Projekty\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\SlimDX.xml
+D:\Projekty\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\Interop.EARTHLib.dll
+D:\Projekty\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\Interop.EARTHLib.dll
+D:\Projekty\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.csproj.ResolveComReference.cache
+D:\Projekty\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.Form1.resources
+D:\Projekty\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.Properties.Resources.resources
+D:\Projekty\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.csproj.GenerateResource.Cache
+D:\Projekty\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.exe.manifest
+D:\Projekty\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.application
+D:\Projekty\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.exe
+D:\Projekty\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.pdb
+D:\Projekty\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.csproj.ResolveComReference.cache
+C:\Users\admin\Documents\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.Form1.resources
+C:\Users\admin\Documents\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.Properties.Resources.resources
+C:\Users\admin\Documents\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.csproj.GenerateResource.Cache
+C:\Users\admin\Documents\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.exe
+C:\Users\admin\Documents\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.pdb
+C:\Users\admin\Documents\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\KNRapp.exe.config
+C:\Users\admin\Documents\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\KNRapp.exe.manifest
+C:\Users\admin\Documents\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\KNRapp.application
+C:\Users\admin\Documents\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\KNRapp.exe
+C:\Users\admin\Documents\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\KNRapp.pdb
+C:\Users\admin\Documents\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\SlimDX.dll
+C:\Users\admin\Documents\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\SlimDX.pdb
+C:\Users\admin\Documents\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\SlimDX.xml
+C:\Users\admin\Documents\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\Interop.EARTHLib.dll
+C:\Users\admin\Documents\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\Interop.EARTHLib.dll
+C:\Users\admin\Documents\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.exe.manifest
+C:\Users\admin\Documents\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.application
+D:\Projekty\VisualStudio\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\KNRapp.exe.config
+D:\Projekty\VisualStudio\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\KNRapp.exe.manifest
+D:\Projekty\VisualStudio\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\KNRapp.application
+D:\Projekty\VisualStudio\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\KNRapp.exe
+D:\Projekty\VisualStudio\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\KNRapp.pdb
+D:\Projekty\VisualStudio\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\Renci.SshNet.dll
+D:\Projekty\VisualStudio\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\SlimDX.dll
+D:\Projekty\VisualStudio\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\Renci.SshNet.xml
+D:\Projekty\VisualStudio\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\SlimDX.pdb
+D:\Projekty\VisualStudio\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\SlimDX.xml
+D:\Projekty\VisualStudio\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.csproj.ResolveComReference.cache
+D:\Projekty\VisualStudio\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.Form1.resources
+D:\Projekty\VisualStudio\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.Properties.Resources.resources
+D:\Projekty\VisualStudio\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.csproj.GenerateResource.Cache
+D:\Projekty\VisualStudio\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.csproj.CoreCompileInputs.cache
+D:\Projekty\VisualStudio\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.exe.manifest
+D:\Projekty\VisualStudio\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.application
+D:\Projekty\VisualStudio\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.exe
+D:\Projekty\VisualStudio\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.pdb
+D:\Projekty\VisualStudio\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.csprojResolveAssemblyReference.cache
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\KNRapp.exe.config
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\KNRapp.exe.manifest
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\KNRapp.application
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\KNRapp.exe
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\KNRapp.pdb
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\Renci.SshNet.dll
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\SlimDX.dll
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\Renci.SshNet.xml
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\SlimDX.pdb
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\bin\Debug\SlimDX.xml
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.csproj.ResolveComReference.cache
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.Form1.resources
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.Properties.Resources.resources
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.csproj.GenerateResource.cache
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.csproj.CoreCompileInputs.cache
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.exe.manifest
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.application
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.csproj.CopyComplete
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.exe
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.pdb
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.FormManipulator.resources
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.csprojResolveAssemblyReference.cache
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.FormLab.resources
+C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.FormAdmin.resources

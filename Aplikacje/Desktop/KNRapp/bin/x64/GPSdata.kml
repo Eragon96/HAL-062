@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2 ">
+<Document>
+<name>Pozycja pojazdu</name>
+<open>1</open>
+<Style id="yellowLineGreenPoly">
+<LineStyle>
+<color>7f00ffff</color>
+<width>4</width>
+</LineStyle>
+<PolyStyle>
+<color>7f00ff00</color>
+</PolyStyle>
+</Style>
+<Style id="downArrowIcon">
+<IconStyle>
+<Icon>
+<href>http://maps.google.com/mapfiles/kml/pal4/icon28.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Placemark>
+<name>Przejechana trasa</name>
+<description></description>
+<styleUrl>#yellowLineGreenPoly</styleUrl>
+<LineString>
+<extrude>1</extrude>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+ 
+</coordinates>
+</LineString>
+</Placemark>
+<Placemark>
+<name>Nasz Pojazd</name>
+<visibility>1</visibility>
+<styleUrl>#downArrowIcon</styleUrl>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+ 
+</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>
