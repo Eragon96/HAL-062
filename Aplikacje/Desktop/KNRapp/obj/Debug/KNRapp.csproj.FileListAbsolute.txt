@@ -182,3 +182,27 @@ C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KN
 C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.csprojResolveAssemblyReference.cache
 C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.FormLab.resources
 C:\Users\T460s\Documents\KNR\aplkacja kondrad\Joystick aplikacja\KNRaplikacja\KNRapp\obj\Debug\KNRapp.FormAdmin.resources
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\bin\Debug\KNRapp.exe.config
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\bin\Debug\KNRapp.exe.manifest
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\bin\Debug\KNRapp.application
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\bin\Debug\KNRapp.exe
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\bin\Debug\KNRapp.pdb
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\bin\Debug\Renci.SshNet.dll
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\bin\Debug\SlimDX.dll
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\bin\Debug\Renci.SshNet.xml
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\bin\Debug\SlimDX.pdb
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\bin\Debug\SlimDX.xml
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\obj\Debug\KNRapp.csprojResolveAssemblyReference.cache
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\obj\Debug\KNRapp.csproj.ResolveComReference.cache
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\obj\Debug\KNRapp.Form1.resources
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\obj\Debug\KNRapp.FormAdmin.resources
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\obj\Debug\KNRapp.FormLab.resources
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\obj\Debug\KNRapp.FormManipulator.resources
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\obj\Debug\KNRapp.Properties.Resources.resources
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\obj\Debug\KNRapp.csproj.GenerateResource.cache
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\obj\Debug\KNRapp.csproj.CoreCompileInputs.cache
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\obj\Debug\KNRapp.exe.manifest
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\obj\Debug\KNRapp.application
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\obj\Debug\KNRapp.csproj.CopyComplete
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\obj\Debug\KNRapp.exe
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\obj\Debug\KNRapp.pdb

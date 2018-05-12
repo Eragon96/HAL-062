@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KNRapp.exe" size="461312">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KNRapp.exe" size="492032">
       <assemblyIdentity name="KNRapp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>kuS25jZfg6LLS2lQarhCG3rmEW7FsZyRtuiowm4cnbU=</dsig:DigestValue>
+        <dsig:DigestValue>Hn0RLqrN6IUDGDNEGjU5d8T96PTiEQXAVZuh0YWRD4I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
