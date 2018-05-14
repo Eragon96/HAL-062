@@ -108,8 +108,8 @@ void SysTick_Handler(void) {
 		lazikRuch = 0;
 	}
 	if(a==20){
-		I2CstartDataAcquisition();
-		I2C3startDataAcquisition();
+		I2CstartDataAcquisition();  //IMU
+		I2C3startDataAcquisition();  //MAG
 		a=0;
 	}
 	a++;
