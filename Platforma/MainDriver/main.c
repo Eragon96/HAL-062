@@ -12,8 +12,8 @@ int main(void) {
 	}
 	initGPIO();
 	GPSinit();
-	//IMUinit();
-	//MAGinit();
+	IMUinit();
+	MAGinit();
 	initCan();
 	loadCommandList();
 	if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_0)==Bit_RESET){
@@ -26,31 +26,10 @@ int main(void) {
 	buzzerInit();
 	lazikRuch = 1;
 	buzzerOn(250, 500, 2);
-	uint8_t test[8];
-	volatile uint16_t d =0;
 	GPIO_SetBits(GPIOH, GPIO_Pin_1);
 	GPIO_ResetBits(GPIOH, GPIO_Pin_0);
 	while (1) {
-		//I2C3startDataAcquisition();
-		//GPIO_SetBits(GPIOH, GPIO_Pin_0);
-		//GPIO_ResetBits(GPIOH, GPIO_Pin_1);
 		delay(300);
-		//GPIO_SetBits(GPIOH, GPIO_Pin_1);
-		//GPIO_ResetBits(GPIOH, GPIO_Pin_0);
-		delay(300);
-
-		test[0]='#';
-		test[1]=102;
-		test[2]=d&&0xFF;
-		test[3]=(d&&0xFF00)>>8;
-		test[4]=d&&0xFF;
-		test[5]=(d&&0xFF00)>>8;
-		test[6]=d&&0xFF;
-		test[7]=(d&&0xFF00)>>8;
-		d++;
-		delay(100);
-
- 		 UARTwyslij(&test[0],8);
 	}
 }
 
@@ -117,6 +96,7 @@ void ResetTimer() {
  * @retval None
  */
 void SysTick_Handler(void) {
+	static int8_t a;
 	if (timingDelay != 0) {
 		timingDelay--;
 	}
@@ -127,5 +107,11 @@ void SysTick_Handler(void) {
 		sendStop(STOP);
 		lazikRuch = 0;
 	}
+	if(a==20){
+		I2CstartDataAcquisition();
+		I2C3startDataAcquisition();
+		a=0;
+	}
+	a++;
 }
 
