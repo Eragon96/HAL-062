@@ -141,30 +141,30 @@ void getDlugosc(char* buffer, char* buffer1, int index) {
 //====================================================================================================
 void GPSinit(void) {
 
-	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1, ENABLE);
+	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART6, ENABLE);
 
 	GPIO_StructInit(&gpio);
-	gpio.GPIO_Pin = GPIO_Pin_9 | GPIO_Pin_10;
+	gpio.GPIO_Pin = GPIO_Pin_6 | GPIO_Pin_7;
 	gpio.GPIO_Mode = GPIO_Mode_AF;
 	gpio.GPIO_Speed = GPIO_High_Speed;
-	GPIO_Init(GPIOA, &gpio);
+	GPIO_Init(GPIOC, &gpio);
 
 	USART_StructInit(&uart);     //odbiera
 	uart.USART_BaudRate = 9600;
-	USART_Init(USART1, &uart);
+	USART_Init(USART6, &uart);
 
-	GPIO_PinAFConfig( GPIOA, GPIO_PinSource9, GPIO_AF_USART1);
-	GPIO_PinAFConfig( GPIOA, GPIO_PinSource10, GPIO_AF_USART1);
+	GPIO_PinAFConfig( GPIOC, GPIO_PinSource6, GPIO_AF_USART6);
+	GPIO_PinAFConfig( GPIOC, GPIO_PinSource7, GPIO_AF_USART6);
 
-	nvic.NVIC_IRQChannel = USART1_IRQn;
+	nvic.NVIC_IRQChannel = USART6_IRQn;
 	nvic.NVIC_IRQChannelPreemptionPriority = 0;
 	nvic.NVIC_IRQChannelSubPriority = 0;
 	nvic.NVIC_IRQChannelCmd = ENABLE;
 	NVIC_Init(&nvic);
 
-	USART_ITConfig(USART1, USART_IT_RXNE, ENABLE);
-	USART_Cmd(USART1, ENABLE);
+	USART_ITConfig(USART6, USART_IT_RXNE, ENABLE);
+	USART_Cmd(USART6, ENABLE);
 
 }
 //====================================================================================================
@@ -174,12 +174,11 @@ void GPSinit(void) {
  * @retval zapis do tablicy GPS[]
  */
 //====================================================================================================
-void USART1_IRQHandler(void) {
-
+void USART6_IRQHandler(void) {
 	volatile static uint8_t odbiorRamki = 0;
-
-	if (USART_GetITStatus(USART1, USART_IT_RXNE) != RESET) {
-		char inputChar = USART_ReceiveData(USART1);
+	if (USART_GetITStatus(USART6, USART_IT_RXNE) != RESET) {
+		USART_ClearITPendingBit(USART6, USART_IT_RXNE);
+		char inputChar = USART_ReceiveData(USART6);
 		GPSdata[odbiorRamki] = inputChar;
 		odbiorRamki++;
 		if (odbiorRamki > 0 && inputChar == '*' && GPSdata[3] == 'G'
@@ -205,6 +204,5 @@ void USART1_IRQHandler(void) {
 			GPSdata[0] = '$';
 			odbiorRamki = 1;
 		}
-		USART_ClearITPendingBit(USART1, USART_IT_RXNE);
 	}
 }
