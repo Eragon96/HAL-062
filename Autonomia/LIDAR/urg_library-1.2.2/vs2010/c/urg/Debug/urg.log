@@ -1,0 +1,10 @@
+﻿  urg_utils.c
+  urg_tcpclient.c
+  urg_serial_utils.c
+  urg_serial.c
+  urg_sensor.c
+  urg_ring_buffer.c
+  urg_debug.c
+  urg_connection.c
+  Generating Code...
+  urg.vcxproj -> D:\KNR\LIDAR\URG-04LX\Biblioteka\urg_library-1.2.2\vs2010\cpp\Debug\urg.lib

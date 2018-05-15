@@ -16,8 +16,8 @@
 #ifndef CANlibF3_H
 #define CANlibF3_H
 
-//#define plytkaPrawa
-#define plytkaLewa
+#define plytkaPrawa
+//#define plytkaLewa
 
 #include "stm32f30x.h"
 #include "main.h"
@@ -31,7 +31,6 @@ CanRxMsg RxMessage;
 
 void initCan(void);
 void USB_LP_CAN1_RX0_IRQHandler(void);
-void USB_HP_CAN1_TX_IRQHandler(void);
 void sendParam(void);
 
 #endif

@@ -55,6 +55,7 @@ void loadCommandList(void) {
 	commandList[i].length = 6;
 	commandList[i].reciveCanAction = transferToUart;
 	commandList[i].reciveUartAction = ignoreUART;
+	i++;
 	//Napiêcie baterii
 	commandList[i].Id = 108;
 	commandList[i].length = 8;

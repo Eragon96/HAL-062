@@ -74,7 +74,7 @@ void initCan(void) {
 
 void readSpeed(void); //deklaracja funkcji znajdujacej sie nizej
 void pwmStartStop(void);
-void readPid(void);
+void setPowerFactor(void);
 //==================================================================================================
 //przerwanie odbiorcze CAN
 //odczytuje wartosci predkosci z nadeslanej ramki i ustawia rzadana predkosc na odpowiednich silnikach
@@ -82,7 +82,7 @@ void USB_LP_CAN1_RX0_IRQHandler(void) {
 	if (CAN_GetITStatus(CAN1, CAN_IT_FMP0) != RESET) {
 		CAN_Receive(CAN1, CAN_FIFO0, &RxMessage);
 		switch (RxMessage.StdId) {
-		case 100:
+		case 101:
 			pwmStartStop();
 			break;
 #ifdef plytkaPrawa
@@ -97,6 +97,9 @@ void USB_LP_CAN1_RX0_IRQHandler(void) {
 			resetCanWatchdog();
 			break;
 #endif
+		case 119:
+			setPowerFactor();
+			break;
 		}
 
 	}
@@ -122,10 +125,15 @@ void readSpeed() {
 }
 
 void pwmStartStop() {
-	if (RxMessage.Data[0] == 1) {
+	if (RxMessage.Data[0] == '1') {
 		startMotors();
-	} else if (RxMessage.Data[0] == 0) {
+	} else
 		stopMotors();
+}
+
+void setPowerFactor(){
+	if (RxMessage.Data[0] <= 20){
+	powerFactor = RxMessage.Data[0] ;
 	}
 }
 
@@ -173,10 +181,10 @@ void adcToCelsiusConverter(void) {
 
 void sendTemp(void) {
 #ifdef plytkaPrawa
-	TxMessage.StdId = 109;
+	TxMessage.StdId = 113;
 #endif
 #ifdef plytkaLewa
-	TxMessage.StdId = 110;
+	TxMessage.StdId = 114;
 #endif
 	adcToCelsiusConverter();
 	TxMessage.DLC = 3;
@@ -188,10 +196,10 @@ void sendTemp(void) {
 
 void sendStatus(void) {
 #ifdef plytkaPrawa
-	TxMessage.StdId = 111;
+	TxMessage.StdId = 116;
 #endif
 #ifdef plytkaLewa
-	TxMessage.StdId = 112;
+	TxMessage.StdId = 117;
 #endif
 	TxMessage.DLC = 1;
 	if (adcValue[6] >500) {
@@ -210,19 +218,20 @@ void sendParam(void) {
 #ifdef plytkaLewa
 	static int licznik = 0;
 #else
-	static int licznik = 25;
+	static int licznik = 50;
 #endif
 	licznik++;
 	switch (licznik) {
-	case 50:
+	case 75:
 		sendSpeed();
 		break;
-	case 100:
+	case 150:
 		sendCurrent();
 		break;
-	case 150:
+	case 225:
 		sendTemp();
-	case 200:
+		break;
+	case 300:
 		sendStatus();
 		licznik = 0;
 		break;

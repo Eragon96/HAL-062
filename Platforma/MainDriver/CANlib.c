@@ -115,11 +115,6 @@ void sendSpeed(Silniki_strona strona, int predkosc1, int predkosc2,
 	CAN_Transmit(CAN1, &txMessage);
 }
 
-void sendPower(uint8_t power) {
-	txMessage.StdId = 110;
-	txMessage.DLC = 1;
-	txMessage.Data[0] = power;
-}
 //====================================================================================================
 /**
  * @brief  Funkcja uruchamia lub zatrzymuje silniki (generowanie PWM w sterowniku)
@@ -135,47 +130,4 @@ void sendStop(Silnik_enable zezwolenie) {
 	txMessage.DLC = 1;
 	txMessage.Data[0] = zezwolenie;
 	CAN_Transmit(CAN1, &txMessage);
-}
-
-//====================================================================================================
-/**
- * @brief  Funkcja ustawia nastawy regulatora PI oraz warosc K wzmocnienia antywindup'owego
- * @note  	po zmianie nastawów pojazd zostaje automatycznie zatrzymany, trzeba ponownie uruchomic napedy
- * @param  P - wartosc wzmocnienia czlonu P (od 0 do 255)
- * @param 	Ilow - stala czasowa członu calkujacego(czesc niska wartosci 16 bitowej)(od 0 do 65535)
- * @param 	Ihigh - stala czasowa członu calkujacego(czesc wysok wartosci 16 bitowej)(od 0 do 65535)
- * @param  K - wartosc wzmocnienia roznicy sygnalu przed i po nasyceniu (antywindup)(od 0 do 255)
- * @retval None
- */
-void sendPid(uint8_t P, uint8_t Ilow, uint8_t Ihigh, uint8_t K) {
-	txMessage.StdId = 0x00;
-	txMessage.DLC = 5;
-	txMessage.Data[0] = 'p';
-	txMessage.Data[1] = P;
-	txMessage.Data[2] = Ilow;
-	txMessage.Data[3] = Ihigh;
-	txMessage.Data[4] = K;
-	CAN_Transmit(CAN1, &txMessage);
-}
-
-//====================================================================================================
-/**
- * @brief  Przesyla otrzymane parametry predkosci i pradu z silnika (przez CAN) do sterowanika (przez UART2)
- * @note  	funkcja w nie modyfikuje otrzymanych danych a jedynie przesyła je dalej
- * 		dane są odczytywane bezpośrednioa z rxMessage.Data[]
- * @retval None
- */
-void sendUartParam(uint8_t dataLength, uint8_t dataId) {
-	static uint8_t sendBuffor[20][9];
-	static uint8_t buffNum = 0;
-	sendBuffor[buffNum][0] = '#';
-	sendBuffor[buffNum][1] = dataId;
-	for (int i = 0; i <= dataLength; i++) {
-		sendBuffor[buffNum][i + 2] = rxMessage.Data[i];
-	}
-	UARTwyslij(&sendBuffor[buffNum][0], dataLength + 2);
-	buffNum++;
-	if (buffNum == 20) {
-		buffNum = 0;
-	}
 }

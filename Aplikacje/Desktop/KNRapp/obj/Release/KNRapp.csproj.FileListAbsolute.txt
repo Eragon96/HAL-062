@@ -1,0 +1,25 @@
+C:\Users\Maciek Krasowski\documents\visual studio 2015\Projects\KNRapp\KNRapp\bin\Release\KNRapp.exe.config
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Release\KNRapp.exe.config
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Release\KNRapp.exe.manifest
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Release\KNRapp.application
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Release\KNRapp.exe
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Release\KNRapp.pdb
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Release\SlimDX.dll
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Release\SlimDX.pdb
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Release\SlimDX.xml
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Release\KNRapp.Form1.resources
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Release\KNRapp.Properties.Resources.resources
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Release\KNRapp.csproj.GenerateResource.Cache
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Release\KNRapp.exe.manifest
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Release\KNRapp.application
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Release\KNRapp.exe
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Release\KNRapp.pdb
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Release\KNRapp.exe.CodeAnalysisLog.xml
+C:\Users\user\Dysk Google\PW\6 sem\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Release\KNRapp.exe.lastcodeanalysissucceeded
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\bin\Release\KNRapp.exe.config
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Release\KNRapp.exe
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Release\KNRapp.pdb
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Release\KNRapp.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Release\KNRapp.Form1.resources
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Release\KNRapp.Properties.Resources.resources
+C:\Users\user\Desktop\Przejściówka\Backup_aplikacja KNR\KNRapp\KNRapp\obj\Release\KNRapp.csproj.GenerateResource.Cache

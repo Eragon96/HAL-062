@@ -1,0 +1,4 @@
+﻿  get_distance.cpp
+d:\knr\lidar\urg-04lx\biblioteka\urg_library-1.2.2\samples\cpp\get_distance.cpp(145): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  get_distance.vcxproj -> D:\KNR\LIDAR\URG-04LX\Biblioteka\urg_library-1.2.2\vs2010\cpp\Debug\get_distance.exe
+  get_distance.vcxproj -> D:\KNR\LIDAR\URG-04LX\Biblioteka\urg_library-1.2.2\vs2010\cpp\Debug\get_distance.pdb (Full PDB)

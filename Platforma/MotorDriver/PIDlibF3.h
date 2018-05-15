@@ -28,6 +28,8 @@ uint16_t velocityGainP;
 uint16_t velocityGainI;
 uint16_t velocityGainK;
 
+volatile uint8_t powerFactor;
+
 float inertialGain;
 
 #endif
