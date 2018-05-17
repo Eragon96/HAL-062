@@ -26,20 +26,20 @@ Player::Player(QWidget *parent) :
         QGst::Ui::VideoWidget(parent)
 {
     // Create gstreamer elements
-//    m_pipeline      = QGst::Pipeline::create("Video Player + Snapshots pipeline");
-//    m_source        = QGst::ElementFactory::make("videotestsrc", "videotestsrc");
-//    m_videoSink     = QGst::ElementFactory::make("xvimagesink", "video-sink");
-//
-//    if (!m_pipeline || !m_source || !m_videoSink) {
-//        QMessageBox::critical(
-//                this,
-//                "Error",
-//                "One or more elements could not be created. Verify that you have all the necessary element plugins installed."
-//        );
-//        return;
-//    }
-//
-//    m_videoSink->setProperty("enable-last-sample", true);
+    m_pipeline = QGst::Pipeline::create();
+    m_source        = QGst::ElementFactory::make("udpsrc", "udpsrc");
+    m_videoSink     = QGst::ElementFactory::make("xvimagesink", "video-sink");
+
+    if (!m_pipeline || !m_source || !m_videoSink) {
+        QMessageBox::critical(
+                this,
+                "Error",
+                "One or more elements could not be created. Verify that you have all the necessary element plugins installed."
+        );
+        return;
+    }
+
+    m_videoSink->setProperty("enable-last-sample", true);
 //
 //    // Add elements to pipeline
 //    m_pipeline->add(m_source);
@@ -49,7 +49,7 @@ Player::Player(QWidget *parent) :
 //    m_source->link(m_videoSink);
 //
 //    watchPipeline(m_pipeline);
-//    setAutoFillBackground(true);
+    setAutoFillBackground(true);
 //
 //    // Connect to pipeline's bus
 //    QGst::BusPtr bus = m_pipeline->bus();
@@ -61,19 +61,16 @@ Player::Player(QWidget *parent) :
 }
 
 void Player::playRTP(int port, QString caps) {
-
-    m_pipeline = QGst::Pipeline::create();
-
-    QString rtpPipeDescription01 = QString("udpsrc port=\"%1\" ! " + caps + " ! "
+    QString rtpPipeDescription = QString("udpsrc port=\"%1\" ! " + caps + " ! "
                                                    "rtph264depay ! "
                                                    "avdec_h264 ! "
                                                    "xvimagesink sync=false").arg(port);
 
     try {
-        m_pipeline = QGst::Parse::launch(rtpPipeDescription01).dynamicCast<QGst::Pipeline>();
+        m_pipeline = QGst::Parse::launch(rtpPipeDescription).dynamicCast<QGst::Pipeline>();
     } catch (const QGlib::Error & error) {
         qCritical() << error;
-        qFatal("One or more elements are missing");
+        qWarning("One or more elements are missing");
         return;
     }
     watchPipeline(m_pipeline);
@@ -101,6 +98,11 @@ void Player::takeSnapshot()
     QGst::SamplePtr sample = QGst::SamplePtr::wrap(videoSample);
     QGst::SamplePtr convertedSample;
     QGst::BufferPtr buffer;
+    if(!sample || !buffer || !convertedSample )
+    {
+        qWarning("Null reference (probably stream not playing!)");
+        return;
+    }
     QGst::CapsPtr caps = sample->caps();
     QGst::MapInfo mapInfo;
     GError *err = NULL;
