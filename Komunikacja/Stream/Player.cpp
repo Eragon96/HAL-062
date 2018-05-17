@@ -14,6 +14,7 @@
 #include <QGst/ClockTime>
 #include <QGst/Sample>
 #include <QGst/Buffer>
+#include <QGst/Parse>
 #include <QtWidgets/QMessageBox>
 
 //#include <glib-object.h>
@@ -25,39 +26,60 @@ Player::Player(QWidget *parent) :
         QGst::Ui::VideoWidget(parent)
 {
     // Create gstreamer elements
-    m_pipeline      = QGst::Pipeline::create("Video Player + Snapshots pipeline");
-    m_source        = QGst::ElementFactory::make("videotestsrc", "videotestsrc");
-    m_videoSink     = QGst::ElementFactory::make("xvimagesink", "video-sink");
+//    m_pipeline      = QGst::Pipeline::create("Video Player + Snapshots pipeline");
+//    m_source        = QGst::ElementFactory::make("videotestsrc", "videotestsrc");
+//    m_videoSink     = QGst::ElementFactory::make("xvimagesink", "video-sink");
+//
+//    if (!m_pipeline || !m_source || !m_videoSink) {
+//        QMessageBox::critical(
+//                this,
+//                "Error",
+//                "One or more elements could not be created. Verify that you have all the necessary element plugins installed."
+//        );
+//        return;
+//    }
+//
+//    m_videoSink->setProperty("enable-last-sample", true);
+//
+//    // Add elements to pipeline
+//    m_pipeline->add(m_source);
+//    m_pipeline->add(m_videoSink);
+//
+//    // Link elements
+//    m_source->link(m_videoSink);
+//
+//    watchPipeline(m_pipeline);
+//    setAutoFillBackground(true);
+//
+//    // Connect to pipeline's bus
+//    QGst::BusPtr bus = m_pipeline->bus();
+//    bus->addSignalWatch();
+//    QGlib::connect(bus, "message", this, &Player::onBusMessage);
+//    bus.clear();
+//
+//    m_pipeline->setState(QGst::StatePlaying);
+}
 
-    if (!m_pipeline || !m_source || !m_videoSink) {
-        QMessageBox::critical(
-                this,
-                "Error",
-                "One or more elements could not be created. Verify that you have all the necessary element plugins installed."
-        );
+void Player::playRTP(int port, QString caps) {
+
+    m_pipeline = QGst::Pipeline::create();
+
+    QString rtpPipeDescription01 = QString("udpsrc port=\"%1\" ! " + caps + " ! "
+                                                   "rtph264depay ! "
+                                                   "avdec_h264 ! "
+                                                   "xvimagesink sync=false").arg(port);
+
+    try {
+        m_pipeline = QGst::Parse::launch(rtpPipeDescription01).dynamicCast<QGst::Pipeline>();
+    } catch (const QGlib::Error & error) {
+        qCritical() << error;
+        qFatal("One or more elements are missing");
         return;
     }
-
-    m_videoSink->setProperty("enable-last-sample", true);
-
-    // Add elements to pipeline
-    m_pipeline->add(m_source);
-    m_pipeline->add(m_videoSink);
-
-    // Link elements
-    m_source->link(m_videoSink);
-
     watchPipeline(m_pipeline);
-    setAutoFillBackground(true);
-
-    // Connect to pipeline's bus
-    QGst::BusPtr bus = m_pipeline->bus();
-    bus->addSignalWatch();
-    QGlib::connect(bus, "message", this, &Player::onBusMessage);
-    bus.clear();
-
     m_pipeline->setState(QGst::StatePlaying);
 }
+
 
 Player::~Player()
 {

@@ -38,6 +38,7 @@ public:
 
 public Q_SLOTS:
     void takeSnapshot();
+    void playRTP(int port, QString caps);
 
 private:
     void onBusMessage(const QGst::MessagePtr & message);

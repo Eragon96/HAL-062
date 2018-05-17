@@ -21,7 +21,7 @@
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
-    
+
     QGst::init(&argc, &argv);
 
     MainWindow window;

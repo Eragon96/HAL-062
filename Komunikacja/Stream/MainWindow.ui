@@ -11,16 +11,51 @@
             </rect>
         </property>
         <property name="windowTitle">
-            <string>Snapshot taker demo</string>
+            <string>HAL-062 player</string>
         </property>
         <widget class="QWidget" name="centralWidget">
             <layout class="QVBoxLayout" name="verticalLayout">
                 <item>
-                    <widget class="QPushButton" name="snapButton">
-                        <property name="text">
-                            <string>Take Snapshot</string>
-                        </property>
-                    </widget>
+                    <layout class="QHBoxLayout" name="horizontalLayout1">
+                        <item>
+                            <widget class="QPushButton" name="snapButton">
+                                <property name="text">
+                                    <string>Take Snapshot</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QPushButton" name="playButton">
+                                <property name="text">
+                                    <string>Play</string>
+                                </property>
+                            </widget>
+                        </item>
+                    </layout>
+                </item>
+                <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout2">
+                        <item>
+                            <widget class="QLabel" name="portLabel">
+                                <property name="text">
+                                    <string>Port:</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QLineEdit" name="portLineEdit"></widget>
+                        </item>
+                        <item>
+                            <widget class="QLabel" name="capsLabel">
+                                <property name="text">
+                                    <string>Caps:</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QLineEdit" name="capsLineEdit"></widget>
+                        </item>
+                    </layout>
                 </item>
             </layout>
         </widget>

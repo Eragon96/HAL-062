@@ -11,9 +11,13 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     m_player = new Player(this);
+    m_player->setMinimumSize(640,480);
     ui->centralWidget->layout()->addWidget(m_player);
 
     connect(ui->snapButton, SIGNAL(clicked()), m_player, SLOT(takeSnapshot()));
+    connect(ui->playButton, &QPushButton::clicked, [=](){ int portNumber = this->ui->portLineEdit->text().toInt();
+                                                                QString capsContent = this->ui->capsLineEdit->text();
+                                                                m_player->playRTP(portNumber, capsContent);});
 }
 
 MainWindow::~MainWindow()
