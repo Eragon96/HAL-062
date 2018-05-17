@@ -210,6 +210,7 @@ void sendStatus(void) {
 		}
 	} else {
 		TxMessage.Data[0] = 2;
+		stopMotors();
 	}
 	CAN_Transmit(CAN1, &TxMessage);
 }

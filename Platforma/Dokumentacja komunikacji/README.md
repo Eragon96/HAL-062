@@ -1,4 +1,4 @@
-Ramki komunikacyjne
+﻿Ramki komunikacyjne
 ===================
 
 UART
@@ -337,13 +337,11 @@ Zdefiniowane ramki
 
     Uwagi: Status przyjmuje następujące wartości:
 
-    -   1: Sterownik uruchomiony (start)
+    -   1: Sterownik zatrzymany (stop)    
 
-    -   2: Sterownik zatrzymany (stop)
+    -   2: Brak zasilania silników
 
-    -   3: Brak zasilania silników
-
-    -   4: Inny problem
+    -   3: Sterownik uruchomiony (start)
 
 117. Status sterownika silników po lewej stronie. Długość ramki: 1 znak
 

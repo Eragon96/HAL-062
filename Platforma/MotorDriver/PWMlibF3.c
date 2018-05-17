@@ -45,6 +45,9 @@ void setPWM(int16_t duty1, int16_t duty2, int16_t duty3) {
 void startMotors() {
 	//Motor2
 	//D1
+	if(adcValue[6] <500){
+		return;
+	}
 	GPIO_SetBits(GPIOB, GPIO_Pin_10);
 	//D2
 	GPIO_SetBits(GPIOB, GPIO_Pin_11);
