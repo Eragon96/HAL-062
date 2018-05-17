@@ -1,14 +1,14 @@
 /**
   ******************************************************************************
-  * @file    main.h 
+  * @file    Project/STM32F4xx_StdPeriph_Templates/main.h 
   * @author  MCD Application Team
-  * @version V1.2.2
-  * @date    14-August-2015
+  * @version V1.8.0
+  * @date    04-November-2016
   * @brief   Header for main.c module
   ******************************************************************************
   * @attention
   *
-  * <h2><center>&copy; COPYRIGHT 2015 STMicroelectronics</center></h2>
+  * <h2><center>&copy; COPYRIGHT 2016 STMicroelectronics</center></h2>
   *
   * Licensed under MCD-ST Liberty SW License Agreement V2, (the "License");
   * You may not use this file except in compliance with the License.
@@ -32,16 +32,12 @@
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx.h"
 
-void TimingDelay_Decrement(void);
-static __IO uint32_t TimingDelay;
-void Delay(__IO uint32_t nTime);
-RCC_ClocksTypeDef RCC_Clocks;
-void resetCanWatchdog(void);
 
 /* Exported types ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/
 /* Exported macro ------------------------------------------------------------*/
 /* Exported functions ------------------------------------------------------- */
+void TimingDelay_Decrement(void);
 
 #endif /* __MAIN_H */
 
