@@ -125,15 +125,6 @@ namespace KNRapp
                     {
                         outputByte[i + 2] = (byte)outputInverseKinematicsTab[i];
                     }
-                    /*
-                    textBox15.Text = "" + outputInverseKinematicsTab[0];
-                    textBox14.Text = "" + outputInverseKinematicsTab[1];
-                    textBox13.Text = "" + outputInverseKinematicsTab[2];
-                    textBox12.Text = "" + outputInverseKinematicsTab[3];
-                    textBox11.Text = "" + outputInverseKinematicsTab[4];
-                    textBox10.Text = "" + outputInverseKinematicsTab[5];
-                    textBox9.Text = "" + outputInverseKinematicsTab[6];
-                    */
                     break;
                 case false:
                     outputByte[1] = (byte)(160);
@@ -349,18 +340,20 @@ namespace KNRapp
 
                     case SiApp.SiEventType.SI_MOTION_EVENT:
                         {
-                            
+
                             /*string motionData = string.Format(templateTR, "",
                               spwEvent.spwData.mData[0], spwEvent.spwData.mData[1], spwEvent.spwData.mData[2], // TX, TY, TZ
                               spwEvent.spwData.mData[3], spwEvent.spwData.mData[4], spwEvent.spwData.mData[5], // RX, RY, RZ
                               spwEvent.spwData.period); // Period (normally 16 ms)
                             Print("Motion event " + motionData);
                             */
-                            for (int i = 0; i < 6; i++)
-                            {
-                                outputInverseKinematicsTab[i] = spwEvent.spwData.mData[i];
-                                
-                            }
+                            outputInverseKinematicsTab[0] = scaleAxis(420, 400, spwEvent.spwData.mData[0]);
+                            outputInverseKinematicsTab[1] = scaleAxis(420, 400, spwEvent.spwData.mData[1]);
+                            outputInverseKinematicsTab[2] = scaleAxis(420, 420, spwEvent.spwData.mData[2]);
+                            outputInverseKinematicsTab[3] = scaleAxis(400, 400, spwEvent.spwData.mData[3]);
+                            outputInverseKinematicsTab[4] = scaleAxis(370, 410, spwEvent.spwData.mData[4]);
+                            outputInverseKinematicsTab[5] = scaleAxis(420, 380, spwEvent.spwData.mData[5]);
+
                             if (inverseKinematics)
                             {
                                 textBox15.Text = "" + outputInverseKinematicsTab[0];
@@ -517,5 +510,23 @@ namespace KNRapp
 
 
         #endregion mouse6d
+
+        private int scaleAxis(int min, int max, int input)
+        {
+            int output = 0;
+            int margin = 30;
+            if(input >= 0)
+            {
+                if (input < margin) return 0;
+                output = (input + margin) * 100 / (max - (2*margin));
+                if (output > 100) output = 100;
+            } else if (input < 0)
+            {
+                if (input > -margin) return 0;
+                output = (input + margin) * 100 / (min - (2*margin));
+                if (output < -100) output = -100;
+            }
+            return output;
+        }
     }
 }

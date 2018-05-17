@@ -206,3 +206,4 @@ C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\obj\Debug\KNRa
 C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\obj\Debug\KNRapp.csproj.CopyComplete
 C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\obj\Debug\KNRapp.exe
 C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\obj\Debug\KNRapp.pdb
+C:\Users\T460s\Documents\KNR\GIT\HAL-062\Aplikacje\Desktop\KNRapp\obj\Debug\KNRapp.FormMap.resources

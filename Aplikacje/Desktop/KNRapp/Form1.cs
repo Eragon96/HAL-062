@@ -271,10 +271,10 @@ namespace KNRapp
         {
             switch (polecenie[0])
             {
-                case 121:
+                case 108:
                     this.ustawBatTemp(polecenie);
                     break;
-                case 120:
+                case 109:
                     this.ustawBatVolt(polecenie);
                     break;
                 case 106:
@@ -592,12 +592,13 @@ namespace KNRapp
         //========================================================================================================
         private void mapaStart_Click(object sender, EventArgs e)
         {
-            gps.GPSstart();
+            //gps.GPSstart();
+            Program.runMapForm();
         }
         //========================================================================================================
         private void ResetMap_Click(object sender, EventArgs e)
         {
-            gps.GPSreset(true);
+            //gps.GPSreset(true);
         }
 
         private void comboBox_portNames_SelectedIndexChanged(object sender, EventArgs e)

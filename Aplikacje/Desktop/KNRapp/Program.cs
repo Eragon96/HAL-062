@@ -28,6 +28,7 @@ namespace KNRapp
         static private FormManipulator manipulatorForm;
         static private FormLab labForm;
         static private FormAdmin adminForm;
+        static private FormMap mapForm;
 
 
 
@@ -156,7 +157,6 @@ namespace KNRapp
         {
             mainForm = new Form1();
             Application.Run(mainForm);
-            
         }
 
         public static void runManipulatorForm()
@@ -180,6 +180,12 @@ namespace KNRapp
         public static FormManipulator getManipulatorFormInfo()
         {
             return manipulatorForm;
+        }
+
+        public static void runMapForm()
+        {
+            mapForm = new FormMap();
+            mapForm.Show();
         }
 
         public static Form1 getMainFormInfo()
