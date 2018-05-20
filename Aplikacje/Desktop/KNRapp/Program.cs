@@ -86,6 +86,9 @@ namespace KNRapp
                             case 107:
                                 znakiPolecenia = 6;
                                 break;
+                            case 110:
+                                znakiPolecenia = 8;
+                                break;
                             case 113:
                                 znakiPolecenia = 3;
                                 break;
@@ -201,6 +204,11 @@ namespace KNRapp
         public static FormAdmin getAdminFormInfo()
         {
             return adminForm;
+        }
+
+        public static FormMap getFormMapInfo()
+        {
+            return mapForm;
         }
 
         public static void closeManipulatorForm()

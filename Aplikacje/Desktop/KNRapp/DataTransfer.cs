@@ -79,7 +79,8 @@ namespace KNRapp
                 char[] bufferChar = new char[buffer.Length];
                 for (int i = 0; i < buffer.Length; i++)
                 {
-                    bufferChar[i] = GOWNOcoversionDoWyslania(buffer[i]);
+                    //bufferChar[i] = GOWNOcoversionDoWyslania(buffer[i]);
+                    bufferChar[i] = (char)buffer[i];
                 }
                 cmd.StandardInput.Write(bufferChar, offset, count);
                 Console.WriteLine("ja to wysyłam");

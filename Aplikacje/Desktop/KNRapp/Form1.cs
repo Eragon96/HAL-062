@@ -289,6 +289,9 @@ namespace KNRapp
                 case 105:
                     this.lewyPrad(polecenie);
                     break;
+                case 110:
+                    Program.getFormMapInfo().makeTask(polecenie);
+                    break;
                 case 113:
                     this.prawyTemp(polecenie);
                     break;
