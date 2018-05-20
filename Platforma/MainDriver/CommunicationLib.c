@@ -5,6 +5,7 @@ void ignoreCAN(CanRxMsg * a);
 void transferToUart(CanRxMsg * a);
 void transferToCan(uint8_t * a);
 void ustawPredkosc2(uint8_t * a);
+void verifyState(CanRxMsg * a);
 
 void loadCommandList(void) {
 	int i = 0;
@@ -107,13 +108,13 @@ void loadCommandList(void) {
 	//Status sterowników silinków prawa
 	commandList[i].Id = 116;
 	commandList[i].length = 1;
-	commandList[i].reciveCanAction = transferToUart;
+	commandList[i].reciveCanAction = verifyState;
 	commandList[i].reciveUartAction = ignoreUART;
 	i++;
 	//Status sterowników silinków lewa
 	commandList[i].Id = 117;
 	commandList[i].length = 1;
-	commandList[i].reciveCanAction = transferToUart;
+	commandList[i].reciveCanAction = verifyState;
 	commandList[i].reciveUartAction = ignoreUART;
 	i++;
 	//Status BMS
@@ -224,4 +225,15 @@ void ustawPredkosc2(uint8_t * a) {
 	sendSpeed(LEWA, predkoscLewa, predkoscLewa, predkoscLewa);
 	sendSpeed(PRAWA, predkoscPrawa, predkoscPrawa, predkoscPrawa);
 	ResetTimer();
+}
+
+void verifyState(CanRxMsg * a){
+	static int k =0;
+	if(a->Data[0]==2 && k== 0){
+		initCan();
+		k=5;
+	}else{
+		k=0;
+	}
+	transferToUart(a);
 }
