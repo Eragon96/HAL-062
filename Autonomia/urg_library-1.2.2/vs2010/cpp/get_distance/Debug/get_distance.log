@@ -1,0 +1,5 @@
+﻿  get_distance.cpp
+d:\knr\hal-062\hal-062\autonomia\lidar\urg_library-1.2.2\samples\cpp\get_distance.cpp(383): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+d:\knr\hal-062\hal-062\autonomia\lidar\urg_library-1.2.2\samples\cpp\get_distance.cpp(392): warning C4551: function call missing argument list
+  get_distance.vcxproj -> D:\KNR\HAL-062\HAL-062\Autonomia\LIDAR\urg_library-1.2.2\vs2010\cpp\Debug\get_distance.exe
+  get_distance.vcxproj -> D:\KNR\HAL-062\HAL-062\Autonomia\LIDAR\urg_library-1.2.2\vs2010\cpp\Debug\get_distance.pdb (Full PDB)
